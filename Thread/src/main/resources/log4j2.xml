@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <properties>
+        <property name="pattern">%d{yyyy-MM-dd HH:mm:ss.SSS} [%-5p] [%c] - %m%n</property>
+    </properties>
+
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${pattern}"/>
+        </Console>
+    </Appenders>
+
+    <!-- Application Loggers -->
+    <Loggers>
+
+        <!--日志级别从低到高依次为：TRACE、DEBUG、INFO、WARN、ERROR和FATAL；关闭日志 off-->
+        <logger name="org.apache.zookeeper.ClientCnxn" level="off" additivity="false"/>
+
+        <!-- Root Logger -->
+        <Root level="DEBUG">
+            <AppenderRef ref="Console"/>
+        </Root>
+    </Loggers>
+</Configuration>

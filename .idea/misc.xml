@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Thread/pom.xml" />
+        <option value="$PROJECT_DIR$/jvmMonitor/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.7" project-jdk-type="JavaSDK" />
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="5edc2676-be76-487d-b3d2-9dd7a6f9914e" />
+      <option name="name" value="5edc2676-be76-487d-b3d2-9dd7a6f9914e" />
+      <option name="url" value="http://nexus.hsweb.me/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="f1be9090-ec4b-440b-a63e-a13b0d25b671" />
+      <option name="name" value="f1be9090-ec4b-440b-a63e-a13b0d25b671" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="562fa7e6-58ce-4bbe-a968-63b5f676a72a" />
+      <option name="name" value="562fa7e6-58ce-4bbe-a968-63b5f676a72a" />
+      <option name="url" value="http://mvnrepo.tae.taobao.com/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="ef784539-b64d-4f1b-aa10-e931b6c7079e" />
+      <option name="name" value="ef784539-b64d-4f1b-aa10-e931b6c7079e" />
+      <option name="url" value="http://maven.mofasuidao.xyz/nexus/content/groups/public/" />
+    </remote-repository>
+  </component>
+</project>
